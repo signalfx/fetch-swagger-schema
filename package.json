@@ -1,0 +1,33 @@
+{
+  "name": "fetch-swagger-schema",
+  "version": "0.1.0",
+  "description": "Fetch a swagger schema from a given api-docs endpoint",
+  "keywords": [],
+  "main": "./lib/fetch.js",
+  "bin": {
+    "fetch-swagger-schema": "./bin/fetch-swagger-schema.js"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Ozan Turgut",
+    "email": "ozanturgut@gmail.com",
+    "url": "http://ozan.io"
+  },
+  "scripts": {},
+  "licenses": [
+    {
+      "type": "Apache License 2.0",
+      "url": "https://github.com/signalfuse/fetch-swagger-schema/blob/master/LICENSE-APACHE2"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/signalfuse/fetch-swagger-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/signalfuse/fetch-swagger-schema/issues"
+  },
+  "homepage": "https://github.com/signalfuse/fetch-swagger-schema",
+  "dependencies": {
+  }
+}
