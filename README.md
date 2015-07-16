@@ -8,10 +8,10 @@ Given a url to a swagger api-docs spec, loads it and all related resource declar
 npm install -g fetch-swagger-schema
 
 # Fetch and save schema as a json file
-fetch-swagger-schema http://petstore.swagger.wordnik.com/api/api-docs petstore.json
+fetch-swagger-schema http://petstore.swagger.io/api/api-docs petstore.json
 
 # Fetch and output response to stdout
-fetch-swagger-schema http://petstore.swagger.wordnik.com/api/api-docs
+fetch-swagger-schema http://petstore.swagger.io/api/api-docs
 ```
 
 ## Library Usage
@@ -21,7 +21,7 @@ First install the package with `npm install fetch-swagger-schema`, then in your 
 ```javascript
 var fetchSchema = require('fetch-swagger-schema');
 
-fetchSchema('http://petstore.swagger.wordnik.com/api/api-docs', function(error, schema){
+fetchSchema('http://petstore.swagger.io/api/api-docs', function(error, schema){
    if(error) return console.error(error);
    console.log('Schema:', schema); 
 });
